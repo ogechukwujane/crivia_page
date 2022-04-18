@@ -3,7 +3,7 @@ import { StyledPyramid } from "../../components/pyramid";
 
 export const Container = styled.div``;
 export const ContentWrapper = styled.div`
-  padding: 80px 100px 30px 100px;
+  padding: 50px 100px 30px 100px;
 `;
 export const Header = styled.div`
   display: flex;
@@ -88,16 +88,16 @@ export const Row = styled.div`
 `;
 export const StyledImage = styled.img`
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
 `;
 export const StyledImage2 = styled(StyledImage)`
   width: 240px;
   height: 240px;
 `;
 export const OrangeShape = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background-color: #e5703d;
   position: relative;
   border-top-left-radius: 50%;
@@ -118,8 +118,8 @@ export const OrangeShape = styled.div`
   }
 `;
 export const GreenShape = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background-color: #b9ff82;
   position: relative;
   border-top-left-radius: 15%;
@@ -128,8 +128,8 @@ export const GreenShape = styled.div`
   overflow: hidden;
   :after {
     content: "";
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     background: #21ef00;
     position: absolute;
     border-top-right-radius: 80%;
@@ -139,8 +139,8 @@ export const GreenShape = styled.div`
   }
 `;
 export const YellowShape = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background-color: #efd700;
   border-radius: 50%;
   position: relative;
@@ -148,15 +148,15 @@ export const YellowShape = styled.div`
   transform: rotate(-50deg);
   :after {
     content: "";
-    width: 75px;
+    width: 85px;
     height: 200px;
     background: #f7eb80;
     position: absolute;
   }
 `;
 export const BlueShape = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background-color: #2a99ff;
   border-radius: 10%;
   position: relative;
@@ -238,7 +238,7 @@ export const RestyledDiv = styled.div`
   padding-top: 32px;
 `;
 export const RestyledWrap = styled(Wrap)`
-  width: 35%;
+  width: 38%;
 `;
 export const MiddleImage = styled.div`
   display: flex;
@@ -287,7 +287,7 @@ export const Email = styled(Text)`
   margin-top: -3px;
 `;
 export const CopyWrite = styled.p`
-  font-size: 1.2em;
+  font-size: 8px;
   margin: 0px;
 `;
 export const FooterButton = styled.div`
@@ -321,7 +321,7 @@ export const GreenPyramid3 = styled(GreenPyramid)`
   top: unset;
   bottom: unset;
   left: unset;
-  right: 30px;
+  right: 50px;
 `;
 export const GreenPyramid4 = styled(GreenPyramid)`
   top: unset;
@@ -355,7 +355,7 @@ export const BluePyramid4 = styled(BluePyramid)`
 `;
 export const BluePyramid5 = styled(BluePyramid)`
   top: unset;
-  bottom: 40px;
+  bottom: 100px;
   left: unset;
   right: 200px;
 `;
@@ -403,13 +403,13 @@ export const YellowPyramid6 = styled(YellowPyramid)`
   left: unset;
   right: unset;
   position: unset;
-  margin-top: 70px;
+  margin-top: 80px;
 `;
 export const YellowPyramid7 = styled(YellowPyramid)`
   top: unset;
   bottom: -30px;
   left: unset;
-  right: 50px;
+  right: 30px;
 `;
 export const YellowPyramid8 = styled(YellowPyramid)`
   top: 20px;
