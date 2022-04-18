@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Pyramid, StyledPyramid } from "../../components/pyramid";
+import { StyledPyramid } from "../../components/pyramid";
 
 export const Container = styled.div``;
 export const ContentWrapper = styled.div`

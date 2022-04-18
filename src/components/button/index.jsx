@@ -8,10 +8,10 @@ const handleColor = (color) => {
   switch (color) {
     case "blue":
       return "#4a54d4";
-    case "black":
-      return "#000000";
     case "white":
       return "#ffffff";
+    default:
+      return "#000000";
   }
 };
 const StyledButton = styled.button`
