@@ -13,7 +13,6 @@ export const Header = styled.div`
   border-bottom: 2px solid #f1f1f1;
 `;
 export const Logo = styled.img`
-  width: 100px;
   height: 48px;
 `;
 export const UnorderedList = styled.ul`
