@@ -89,6 +89,8 @@ import {
   Plane,
   Span,
   FooterText,
+  FlexBox2,
+  StyledImage2,
 } from "./style";
 
 const Home = () => {
@@ -167,17 +169,15 @@ const Home = () => {
             <YellowPyramid5 />
             <GreenPyramid2 />
             <BluePyramid2 />
-            <StyledImage src={image7} />
+            <StyledImage2 src={image7} />
             <RestyledImage src={image6} />
           </ImageContainer>
           <Wrap>
             <BluePyramid3 />
-            <SubHeading>
-              Consult your
-              <br /> business problems
-              <br /> with us
-            </SubHeading>
-            <Row>
+            <SubHeading>Consult your</SubHeading>
+            <SubHeading>business problems</SubHeading>
+            <SubHeading>with us</SubHeading>
+            <FlexBox2>
               <Div>
                 <Icon>
                   <AiOutlineClockCircle />
@@ -190,8 +190,8 @@ const Home = () => {
                 </Icon>
                 <Title>We keep your company secret</Title>
               </Div>
-            </Row>
-            <Row>
+            </FlexBox2>
+            <FlexBox2>
               <Div>
                 <Icon>
                   <SiFastapi />
@@ -204,7 +204,7 @@ const Home = () => {
                 </Icon>
                 <Title>Discuss problems together</Title>
               </Div>
-            </Row>
+            </FlexBox2>
           </Wrap>
         </FlexBox>
         {/* end of second section with image */}

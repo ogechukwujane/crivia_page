@@ -19,7 +19,7 @@ const StyledButton = styled.button`
   background: ${(props) => (props.primary ? "transparent" : "#4a54d4")};
   color: ${({ color }) => handleColor(color)};
   border: none;
-  font-size: 1.3em;
+  font-size: 1em;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
 `;
