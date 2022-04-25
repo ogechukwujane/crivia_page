@@ -91,6 +91,13 @@ import {
   FooterText,
   FlexBox2,
   StyledImage2,
+  ImageFlexBox,
+  FooterFlex,
+  Wrap2,
+  ButtonWrapp2,
+  CompanyFlexBox,
+  ImageWrap,
+  Company2,
 } from "./style";
 
 const Home = () => {
@@ -127,12 +134,12 @@ const Home = () => {
               repair of associated arterial trauma, following unsuccessful
               endovascular repair.
             </Text>
-            <ButtonWrapp>
+            <ButtonWrapp2>
               <Button color="white">Get Started</Button>
               <Button primary>Be a Mentor</Button>
-            </ButtonWrapp>
+            </ButtonWrapp2>
           </Wrap>
-          <Wrap>
+          <ImageWrap>
             <YellowPyramid3 />
             <Row>
               <StyledImage src={image1} />
@@ -149,17 +156,17 @@ const Home = () => {
               <BlueShape />
               <StyledImage src={image5} />
             </Row>
-          </Wrap>
+          </ImageWrap>
         </FlexBox>
         {/* end of first section with image */}
       </ContentWrapper>
       <CompaniesContainer>
-        <FlexBox>
+        <CompanyFlexBox>
           <Company src={facebook} />
           <Company src={google} />
           <Company src={uber} />
-          <Company src={amazon} />
-        </FlexBox>
+          <Company2 src={amazon} />
+        </CompanyFlexBox>
       </CompaniesContainer>
       <ContentWrapper>
         {/* begin of second section with image */}
@@ -172,7 +179,7 @@ const Home = () => {
             <StyledImage2 src={image7} />
             <RestyledImage src={image6} />
           </ImageContainer>
-          <Wrap>
+          <Wrap2>
             <BluePyramid3 />
             <SubHeading>Consult your</SubHeading>
             <SubHeading>business problems</SubHeading>
@@ -205,7 +212,7 @@ const Home = () => {
                 <Title>Discuss problems together</Title>
               </Div>
             </FlexBox2>
-          </Wrap>
+          </Wrap2>
         </FlexBox>
         {/* end of second section with image */}
         {/* begin of article section */}
@@ -277,11 +284,11 @@ const Home = () => {
             <MiddleImage>
               <StyledImage src={image5} />
             </MiddleImage>
-            <FlexBox>
+            <ImageFlexBox>
               <StyledImage src={image2} />
               <YellowPyramid6 />
               <StyledImage src={image3} />
-            </FlexBox>
+            </ImageFlexBox>
             <BottomImage>
               <StyledImage src={image1} />
             </BottomImage>
@@ -357,7 +364,7 @@ const Home = () => {
       </ContentWrapper>
       {/* footer section */}
       <FooterContent>
-        <FlexBox>
+        <FooterFlex>
           <BluePyramid6 />
           <YellowPyramid8 />
           <YellowPyramid9 />
@@ -429,14 +436,14 @@ const Home = () => {
               Twitter
             </Text>
           </FooterDiv>
-        </FlexBox>
+        </FooterFlex>
       </FooterContent>
       <FooterFlexBox>
-        <CopyWrite>Copyright&copy;2022.Crivia.All Right Reserved</CopyWrite>
         <FooterButton>
           <FooterText>Terms of Service</FooterText>
           <FooterText primary>Privacy Policy</FooterText>
         </FooterButton>
+        <CopyWrite>Copyright&copy;2022.Crivia.All Right Reserved</CopyWrite>
       </FooterFlexBox>
       {/* end of footer content */}
     </Container>
